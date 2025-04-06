@@ -69,3 +69,51 @@
     display: none;
   }
 }
+
+.popup-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  font-family: sans-serif;
+}
+
+.payment-options-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.confirm-order-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.confirm-order-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.success-message {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+.close-popup-button {
+  margin-top: 15px;
+  background-color: #ff4d4f;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
